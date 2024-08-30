@@ -31,3 +31,15 @@ Before you can run the tests, ensure you have the following installed:
 4. To interactively run the tests in Cypress:
    npx cypress open
 
+
+├── cypress/
+│   ├── e2e/
+│   │   └── app.cy.js   # Main test script
+│   ├── fixtures/       # Test data (optional)
+│   ├── support/        # Cypress custom commands (optional)
+│   └── cypress.config.js  # Cypress configuration
+├── node_modules/
+├── package.json
+└── README.md        
+
+
